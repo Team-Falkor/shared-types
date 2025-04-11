@@ -1,0 +1,33 @@
+{
+  "name": "@team-falkor/shared-types",
+  "version": "1.0.0",
+  "description": "Shared types for Team Falkor",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "falkor",
+    "team-falkor",
+    "shared-types",
+    "typescript",
+    "types"
+  ],
+  "author": {
+    "url": "https://github.com/team-falkor",
+    "name": "Team Falkor"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}
