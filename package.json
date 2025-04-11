@@ -9,6 +9,9 @@
     "build": "tsc",
     "clean": "rimraf dist"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "falkor",
     "team-falkor",
