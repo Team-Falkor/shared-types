@@ -1,4 +1,4 @@
-import { APIResponse } from "../../types";
+import { ApiResponse } from "../../types";
 
 export * from "./search";
 
@@ -13,4 +13,4 @@ export interface PluginProvider {
   approved: boolean;
 }
 
-export type PluginProviderResponse = APIResponse<Array<PluginProvider>>;
+export type PluginProviderResponse = ApiResponse<Array<PluginProvider>>;
