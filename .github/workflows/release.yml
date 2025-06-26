@@ -3,7 +3,7 @@ name: Build, Release and Publish
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'package.json'
   workflow_dispatch:
