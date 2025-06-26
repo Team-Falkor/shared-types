@@ -12,13 +12,13 @@ This package contains shared TypeScript type definitions used across all Falkor 
 ## Installation
 
 ```bash
-pnpm install @falkor/shared-types
+pnpm install @team-falkor/shared-types
 # or
-npm install @falkor/shared-types
+npm install @team-falkor/shared-types
 # or
-yarn add @falkor/shared-types
+yarn add @team-falkor/shared-types
 # or
-bun add @falkor/shared-types
+bun add @team-falkor/shared-types
 
 ```
 
@@ -27,7 +27,7 @@ bun add @falkor/shared-types
 Import the types you need in your TypeScript files:
 
 ```typescript
-import { PluginConfig, SearchResult } from "@falkor/shared-types";
+import { PluginConfig, SearchResult } from "@team-falkor/shared-types";
 
 // Use the types in your code
 const config: PluginConfig = {
