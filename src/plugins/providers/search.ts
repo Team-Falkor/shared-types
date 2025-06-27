@@ -27,13 +27,6 @@ interface BasePluginSearchResponse {
   uploadedAt?: string;
   /** Content summary or additional details */
   description?: string;
-  /** Source page URL where the content listing was found */
-  sourceUrl?: string;
-  /**
-   * Categorization tags for content classification
-   * @example ["RPG", "Mod", "English", "Completed"]
-   */
-  tags?: string[];
   /**
    * Supported platform identifiers
    * @example ["Windows", "macOS", "Linux"]
